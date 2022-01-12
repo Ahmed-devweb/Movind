@@ -1,0 +1,52 @@
+.title
+{
+    margin-left: 20px;
+    padding-top: 50px;
+}
+#movie_container
+{
+    scrollbar-color: #BFC0C4 grey;
+}
+.movies
+{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px;
+    text-align: center;
+}
+.movie_image
+{
+    max-height: 100px;
+    object-fit: contain;
+    margin-right: 10px;
+    transition: transform 450ms;
+    cursor: pointer;
+}
+.movie_image:hover
+{
+    transform: scale(1.08);
+    opacity: 1;
+}
+.movie_description
+{
+    text-align: center;
+}
+.modal_font
+{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 22px;
+}
+.modal_style
+{
+    background-color: #e6e6e5;
+}
+.animation_fade
+{
+   opacity: 1; 
+   animation: 3s ease-in fade ;
+}
+
+
+@keyframes fade { from { opacity: 0; }
+to   { opacity: 1; } }

@@ -1,0 +1,21 @@
+.footer
+{
+    background-color: black;
+    color: #E7C063 ;
+}
+footer div
+{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_logo
+{
+    object-fit: contain;
+    max-height: 50px;
+}
+.footer_p
+{
+    align-self: center;
+    margin-bottom: 0px;
+}

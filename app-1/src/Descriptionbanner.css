@@ -1,0 +1,8 @@
+.banner
+{
+    color: #E7C063;
+    height: 400px;
+    background-image: url("http://cdn.shapechef.com/blog/stars.png");
+    text-align: center;
+    overflow: hidden;
+}

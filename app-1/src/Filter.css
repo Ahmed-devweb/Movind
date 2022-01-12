@@ -1,0 +1,106 @@
+.filters
+{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.filters_title
+{
+    padding-top: 10px;
+}
+.filter
+{
+    overflow-wrap: break-word;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 25%;
+    background-color: #e6e6e5;
+    color: black;
+    transition: transform 450ms;
+    cursor: pointer;
+}
+.filter:hover
+{
+    transform: scale(1.08);
+    opacity: 1;
+}
+.filter_active
+{
+    overflow-wrap: break-word;
+    background-color: black;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 25%;
+    font-weight: bold;
+    color: #E7C063;
+    transition: transform 450ms;
+    cursor: pointer;
+}
+.filter_active:hover
+{
+    transform: scale(1.08);
+    opacity: 1;
+}
+.search_button
+{
+    display: block;
+    color: black;    
+    font-weight: bold;
+    border-radius: 20px;
+    width: 35%;
+    background-color: #e6e6e5;
+    margin: 30px auto;
+    transition: all 450ms;
+    cursor: pointer;
+}
+.search_button:hover
+{
+    transform: scale(1.08);
+    background-color: black;
+    color: #E7C063;
+}
+.filter_hide
+{
+    display: none;
+}
+.waiting_search
+{
+    text-align: center;
+}
+.searching_filters
+{
+    text-align: center;
+    background-color: grey;
+    padding: 50px 0px 50px 0px;
+}
+
+.animation_fade
+{
+   opacity: 1; 
+   animation: 2s ease-in fade ;
+}
+
+
+@keyframes fade { from { opacity: 0; }
+to   { opacity: 1; } }
+
+@media screen and (max-width : 900px){
+    .filter
+    {
+        font-size: 10px;
+    }
+    .filters
+    {
+        width: 90%;
+    }
+    .filter_active
+    {
+        font-size: 10px;
+    }
+}

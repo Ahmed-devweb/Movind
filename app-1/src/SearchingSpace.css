@@ -1,0 +1,26 @@
+
+.searchingplace
+{
+    background-color: #BFC0C4;
+    padding: 0px 0px 50px 0px;
+}
+.search_link
+{
+    display: block;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 35%;
+    background-color: #e6e6e5;
+    margin: 30px auto;
+    transition: all 450ms;
+    cursor: pointer;
+    text-align: center;
+}
+.search_link:hover
+{
+    transform: scale(1.08);
+    background-color: black;
+    color: #E7C063;
+    text-decoration: none;
+}

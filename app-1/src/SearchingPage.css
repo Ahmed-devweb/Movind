@@ -1,0 +1,9 @@
+.animation_fade
+{
+   opacity: 1; 
+   animation: 2s ease-in fade ;
+}
+
+
+@keyframes fade { from { opacity: 0; }
+to   { opacity: 1; } }
