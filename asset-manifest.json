@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Movind/static/css/main.69296ba6.css",
+    "main.js": "/Movind/static/js/main.8253c07d.js",
+    "static/js/787.78cb7dc2.chunk.js": "/Movind/static/js/787.78cb7dc2.chunk.js",
+    "static/media/logo-movind.PNG": "/Movind/static/media/logo-movind.033af7bee509da5cb470.PNG",
+    "static/media/logo-tmdb.svg": "/Movind/static/media/logo-tmdb.bb8aa703cb92c9aa31fc1e0b17850ed9.svg",
+    "index.html": "/Movind/index.html",
+    "main.69296ba6.css.map": "/Movind/static/css/main.69296ba6.css.map",
+    "main.8253c07d.js.map": "/Movind/static/js/main.8253c07d.js.map",
+    "787.78cb7dc2.chunk.js.map": "/Movind/static/js/787.78cb7dc2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69296ba6.css",
+    "static/js/main.8253c07d.js"
+  ]
+}
